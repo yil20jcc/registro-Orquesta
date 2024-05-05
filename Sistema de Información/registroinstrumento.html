@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>R Instrumento</title>
+    <link rel="stylesheet" href="assets/boostrap/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/registro.css" />
+    <link rel="icon" href="assets/imagenes/Favicon.png">
+  </head>
+  <body>
+    <main>
+    <div class="main p-3">
+      <div class="container my-3">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <div class="titulo">
+              <h1>Registrar Instrumento</h1>
+            </div>
+            <div class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label"><b>Nombre del Instrumento</b></label>
+                <input class="form-control" placeholder="Ej: Trompeta" />
+              </div>
+              <div class="col-md-4">
+                <label for="inputZip" class="form-label"
+                  ><b>Tipo de Instrumento</b></label
+                >
+                <select id="inputState" class="form-select">
+                  <option>Cuerda</option>
+                  <option>Viento</option>
+                  <option>Acústica</option>
+                  <option>Eléctricos</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label"><b>Código</b></label>
+                <input
+                  class="form-control"
+                  placeholder="Ej: AVA-F30-2023-123456"
+                />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label"><b>Serial</b></label>
+                <input class="form-control" placeholder="Ej: VEN23-123456" />
+              </div>
+            </div>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label"><b>Condición Actual</b></label>
+                <input class="form-control" placeholder="Ej: su estado físico"/>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label"><b>Origen</b></label>
+                <input
+                  class="form-control"
+                  placeholder="Ej: Donado ó Prestado"
+                />
+              </div>
+              <div class="col-md-6">
+                <label class="form-label"
+                  ><b>Fecha de Ingreso a la Institución</b></label
+                >
+                <input class="form-control" type="date" />
+              </div>
+              <div class="col-md-5">
+                <label class="form-label"><b>Foto del Instrumento</b></label>
+                <img src="assets/imagenes/instrumento de cuerda.jpg" alt="" style="width: 250px;">
+              </div>
+              <nav class="navbar">
+                <div class="container col-3">
+                  <input
+                    class="btn btn-outline-success"
+                    type="submit"
+                    value="Agregar"
+                  />
+                  </form>
+                </div>
+              </nav>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+        <!-- Footer -->
+        <footer class="footer">
+          <h2 class="footer-titulo">
+            Copyright © Sistema Nacional de Orquestas - Núcleo Chivacoa. 2024
+          </h2>
+        </footer>
+        <!-- Fin del Footer -->
+    <script src="assets/boostrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
